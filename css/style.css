@@ -30,14 +30,28 @@ img{
     color:#ff0000;
 }
 
+.txt-white{
+    color:#fff;
+}
+
+
 .txt-line-throught{
     text-decoration:line-through;
+}
+
+.fa-brands{
+    font-size: 22px;
+    margin-right: 5px;
 }
 
 /* GENERIC */
 
 h3{
  padding: 1px 0;
+}
+
+h4{
+    margin: 10px 0;
 }
 
 /* HEADER */
@@ -158,3 +172,33 @@ main{
 .heart:hover{
     color: #ff0000;
 }
+
+/* FOOTER */
+
+footer{
+    background-color: #000;
+    height: 100px;
+  }
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+footer a{
+    color:#fff;
+    text-decoration: none;
+    margin-right:3px;
+    font-size: 14px;
+}
+
+footer ul{
+    list-style-type: none;
+}
+
+footer li{
+    display: inline;
+}
+
