@@ -39,12 +39,15 @@ img{
     text-decoration:line-through;
 }
 
-.fa-brands{
+i{
     font-size: 22px;
-    margin-right: 5px;
 }
 
 /* GENERIC */
+
+ul{
+    list-style-type: none;
+}
 
 h3{
  padding: 1px 0;
@@ -52,6 +55,12 @@ h3{
 
 h4{
     margin: 10px 0;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+    margin-right: 5px;
 }
 
 /* HEADER */
@@ -75,6 +84,14 @@ header{
     height: 100%;
     justify-content: space-between;
     align-items: center;
+}
+
+header li{
+    display: inline;
+}
+
+header li{
+    font-weight: bold;
 }
 
 /* MAIN */
@@ -187,16 +204,6 @@ footer{
     height: 100%;
 }
 
-footer a{
-    color:#fff;
-    text-decoration: none;
-    margin-right:3px;
-    font-size: 14px;
-}
-
-footer ul{
-    list-style-type: none;
-}
 
 footer li{
     display: inline;
