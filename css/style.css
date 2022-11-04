@@ -85,8 +85,6 @@ main{
  position: relative;
 }
 
-/* POSITION ELEMENT */
-
 .discount{
     padding: 5px 10px;
     color: #fff;
@@ -104,6 +102,9 @@ main{
     font-weight: bolder;
 
 }
+
+/* POSITION ELEMENT */
+
 
 .heart{
     position: absolute;
@@ -153,6 +154,7 @@ main{
     content: url(../img/6b.webp);
     width: 100%;
   }
+
 .heart:hover{
     color: #ff0000;
 }
