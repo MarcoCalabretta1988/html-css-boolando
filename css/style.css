@@ -10,7 +10,7 @@
 /* UTILITY */
 
 .container{
-    max-width: 1200px;
+    max-width: 1325px;
     margin: 0 auto;
 }
 
@@ -18,4 +18,141 @@ body{
     font-family: sans-serif;
 }
 
+.flex{
+    display: flex;
+}
+
+img{
+    max-width: 100%;
+}
+
+.txt-red{
+    color:#ff0000;
+}
+
+.txt-line-throught{
+    text-decoration:line-through;
+}
+
 /* GENERIC */
+
+h3{
+ padding: 1px 0;
+}
+
+/* HEADER */
+
+header{
+    background-color: #FF6900;
+    box-shadow: 0 0 5px #000;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+#logo{
+    height: 30px;
+    flex-grow: 1;
+}
+
+#main-nav{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* MAIN */
+
+main{
+    padding-top: 70px;
+}
+
+.row{
+    min-height: 640px;
+    gap:20px;
+    padding: 50px 0;
+}
+
+.column{
+    flex-basis: calc(100%/3);
+}
+
+/* CARD */
+
+.card{
+ position: relative;
+}
+
+/* POSITION ELEMENT */
+
+.discount{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #ff0000;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.sost{
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #008000;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-size: 25px;
+    padding: 10px 15px;
+    background-color: #fff;
+}
+
+.label{
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    bottom: 105px;
+    left: 0;
+}
+
+/* HOVER */
+
+.card:hover #relaxet{
+    content: url(../img/1b.webp);
+    width: 100%;
+  }
+
+  .card:hover #roses{
+    content: url(../img/2b.webp);
+    width: 100%;
+  }
+
+  .card:hover #pastello{
+    content: url(../img/3b.webp);
+    width: 100%;
+  }
+
+  .card:hover #unisex{
+    content: url(../img/4b.webp);
+    width: 100%;
+  }
+
+  .card:hover #bodice{
+    content: url(../img/5b.webp);
+    width: 100%;
+  }
+
+  .card:hover #maglione{
+    content: url(../img/6b.webp);
+    width: 100%;
+  }
+.heart:hover{
+    color: #ff0000;
+}
